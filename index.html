@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+<div class="main">
+
+    <div class="sideber">
+        <div class="nav">
+            <div class="nav-option" style="opacity: 1;">
+                <i class="fa-solid fa-house"></i>
+                <a class="home" href="#">Home</a>
+            </div>
+            <div class="nav-option">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a class="search" href="#">Search</a>
+            </div>
+        </div>
+        <div class="librery">
+            <div class="header">
+                <div class="lib-option">
+                    <img src="Assets/library_icon.png" alt="">
+                    <a class="lib" href="#">Your Library</a>
+                </div>
+                <div class="plus">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+
+            </div>
+            <div class="boxs">
+                <div class="create">
+                    <p style="font-size: 1rem; font-weight: 700;">Create your first playlist</p>
+                    <p style="font-size: 0.875rem; font-weight: 400;">It's easy, we'll help you</p>
+                    <button type="button">Create playlist</button>
+                </div>
+                <div class="create">
+                    <p style="font-size: 1rem; font-weight: 700;">Let's find some podcast to follow</p>
+                    <p style="font-size: 0.875rem; font-weight: 400;">We'll keep you updated on new episodes </p>
+                    <button type="button">Browse podcast</button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="sideber-hide">
+        <i class="fa-solid fa-house"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <img src="Assets/library_icon.png" alt="">
+    </div>
+
+    <div class="main-content">
+        <div class="sticky-nav">
+            <div class="parts">
+                <img src="Assets/backward_icon.png" alt="">
+                <img src="Assets/forward_icon.png" class="hide" alt="">
+            </div>
+            <div class="parts">
+                <button type="button" class="hide">Explore Premium</button>
+                <button type="button" style="background-color: black; color: white;"><i
+                        class="fa-regular fa-circle-down" style="font-size: 16px;"></i> Install App</button>
+                <i class="fa-regular fa-user user" style="color: white; background-color: black;"></i>
+            </div>
+        </div>
+        <h2>Recently played</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="Assets/card10img.jpeg" alt="">
+                <div class="card-title">
+                    What It Is (Bl...
+                </div>
+                <div class="card-text">
+                    Doechii, Kodak Black
+                </div>
+            </div>
+        </div>
+        <br>
+        <h2>Trending now</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="Assets/card2img.jpeg" alt="">
+                <div class="card-title">
+                    Mahiye jinna so...
+                </div>
+                <div class="card-text">
+                    Darshan Raval
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Assets/card3img.jpeg" alt="">
+                <div class="card-title">
+                    Mere pass tu...
+                </div>
+                <div class="card-text">
+                    Lofi Mix by Silent Ocean
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Assets/card4img.jpeg" alt="">
+                <div class="card-title">
+                    Naa Ready
+                </div>
+                <div class="card-text">
+                    LEO - Alter Ego
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Assets/card7img.jpeg" alt="">
+                <div class="card-title">
+                    Chor Nikal k...
+                </div>
+                <div class="card-text">
+                    Vishal Mishra
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Assets/card8img.jpeg" alt="">
+                <div class="card-title">
+                    Rocky or Rani k...
+                </div>
+                <div class="card-text">
+                    Pritam, Amitabh bhatt...
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="Assets/card9img.jpeg" alt="">
+                <div class="card-title">
+                    9:45
+                </div>
+                <div class="card-text">
+                    Prabh Singh, Ja...
+                </div>
+            </div>
+        </div>
+        <h2>Featured Charts</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="Assets/card1img.jpeg" alt="">
+                <div class="card-title">
+                    Top 20 - Global
+                </div>
+                <div class="card-text">
+                    Your daily update of the most play...
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/card5img.jpeg" alt="">
+                <div class="card-title">
+                    Top songs - Global
+                </div>
+                <div class="card-text">
+                    Your Weekly update of the most play...
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/card6img.jpeg" alt="">
+                <div class="card-title">
+                    Top songs - India
+                </div>
+                <div class="card-text">
+                    Your Weekly update of the most play...
+                </div>
+            </div>
+
+        </div>
+        <div class="end-box">
+        </div>
+
+    </div>
+    <div class="player">
+        <div class="display">
+            <div class="img">
+                <img src="Assets/card10img.jpeg" alt="">
+            </div>
+            <div class="dis">
+                <div class="dis-title">
+
+                    What It Is (Block B...
+                </div>
+                <div class="dis-text">
+                    Doechii, Kodak Black
+                </div>
+            </div>
+            <div class="dis-tool">
+                <img src="Assets/album_icon1.png" alt="">
+                <img src="Assets/album_icon2.png" alt="">
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="controls">
+                <img src="Assets/player_icon1.png" alt="">
+                <img src="Assets/player_icon2.png" alt="">
+                <img src="Assets/player_icon3.png" alt=""
+                    style="height: 30px; width: 30px; position: relative;bottom: 7px;" class="play-btn">
+                <img src="Assets/player_icon4.png" alt="">
+                <img src="Assets/player_icon5.png" alt="">
+            </div>
+            <div class="play-bar">
+                00:00 &nbsp;
+                <input type="range" name="" id="" class="bar">
+                &nbsp;3:33
+            </div>
+
+        </div>
+        <div class="tool">
+            <img src="Assets/controls_icon1.png" alt="">
+            <img src="Assets/controld_icon2.png" alt="">
+            <img src="Assets/controls_icon3.png" alt="">
+            <img src="Assets/controls_icon4.png" alt="">
+            <img src="Assets/controls_icon5.png" alt="">
+            <input type="range" name="" id="">
+        </div>
+    </div>
+</div>
+
+<body>
+
+</body>
+
+</html>
